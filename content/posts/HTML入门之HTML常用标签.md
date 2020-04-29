@@ -1,7 +1,7 @@
 ---
 title: "HTML入门之HTML常用标签"
 date: 2020-04-29T11:00:02+08:00
-draft: true
+draft: false
 toc: true
 tags: ["HTML", "入门"]
 categories: ["HTML"]
@@ -82,7 +82,7 @@ categories: ["HTML"]
 
 而为什么要使用`"max-width"`而不是`"width"`呢？最重要的概念是**保证图片不被拉伸**，使用`"max-width"`可以保证图片小于屏幕宽度的时候不被拉伸到和屏幕一样宽，只到自己图片大小，从而避免造成看起来非常马赛克。如果还是不太明白可以写代码来帮助理解。
 
-## form 标签
+## 3.form 标签
 
 ### 属性[ action ]
 
@@ -99,7 +99,7 @@ categories: ["HTML"]
 
 表单提交时会触发 onsubmit 事件，有时候不想要表单默认的提交行为，我们可以给表单添加 id 然后通过 js 捕获 submit 事件并在事件处理函数中 return false 来阻止默认提交行为。
 
-## input 标签
+## 4.input 标签
 
 ### 属性[ type ]
 
@@ -130,7 +130,7 @@ categories: ["HTML"]
 
 `"[onblur ]"`：input 失去焦点时触发的事件。比如一个类型为 text 的 input，内容输入完成后鼠标点击了非这个 input 区域时产生`"onblur"`事件。
 
-## table 标签
+## 5.table 标签
 
 `"[table]"`内容比较简单，主要就是练习一个熟练度。table 本身用的地方不是很多，但可以用来进行一些比较特殊表格布局。
 使用`table`注意的点：
