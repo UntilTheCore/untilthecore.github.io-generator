@@ -21,7 +21,10 @@ categories: ["HTML"]
 
 `[href]`可设置以下内容的值：
 
-- 网址 - [https://untilthecore.github.io/](https://untilthecore.github.io/) - [http://untilthecore.github.io/](https://untilthecore.github.io/) - [//untilthecore.github.io/](https://untilthecore.github.io/) (推荐用这种，它会自动寻找 https 或者 http 协议的网址)
+- 网址 
+  - [https://untilthecore.github.io/](https://untilthecore.github.io/) 
+  - [http://untilthecore.github.io/](https://untilthecore.github.io/) 
+  - [//untilthecore.github.io/](https://untilthecore.github.io/) (推荐用这种，它会自动寻找 https 或者 http 协议的网址)
 - 路径 - 绝对路径：/a/b/c （以地址栏地址为基准寻找） - 相对路径：a/b/c 、 ./a/b/c (以当前文件为基准寻找)
 - 伪协议 - `"javascript:代码;"`：代码部分可以写代码，这样点击会产生对应代码的效果。或者什么都不写，就是单纯的`"javascript:;"`，这样可以阻止 a 标签的默认跳转行为。 ； - `"mailto:邮箱地址"`：值为这个，点击时会调用默认邮件程序，可以发送邮件到填写的邮箱地址； - `"tel:手机号"`：值为这个，如果是手机端会调用手机默认拨号程序并准备拨向填写的手机号；
 - id
